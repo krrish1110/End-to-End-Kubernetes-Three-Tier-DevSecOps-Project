@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: 
+    - host: juju.bbros.live 
       http:
         paths:
           - path: /api
